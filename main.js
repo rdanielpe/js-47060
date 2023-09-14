@@ -1,12 +1,10 @@
-let nameComplete = prompt("Ingresa tu nombre");
-alert("Bienvenido " + nameComplete);
+const cantPreguntas = Number(prompt("¿Cuantas notas deseas ingresar?"));
+let sumaNotas = 0;
 
-let age = Number(prompt("Ingresa tu edad"));
-
-if (age >= 100) {
-  alert("Deberías estar muerto");
-} else if (age >= 18) {
-  alert("Eres mayor de edad");
-} else {
-  alert("Eres menor de edad");
+for (let i = 0; i < cantPreguntas; i++) {
+  const nota = Number(prompt("Ingrese la nota"));
+  sumaNotas += nota;
 }
+
+const promedio = sumaNotas / cantPreguntas;
+alert(`El promedio de las ${cantPreguntas} notas ingresadas es: ${promedio}`);

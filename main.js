@@ -37,8 +37,8 @@ let carrito = [];
 
 do {
   marca = prompt(
-    "Estas son las 3 marcas con las que trabajamos:\n 1. Nike \n 2. Jordan \n 3. Adidas \n Escribe el nombre por favor"
-  ).toLowerCase();
+    "Escribe el nombre por favor \n Estas son las 3 marcas con las que trabajamos:\n 1. Nike \n 2. Jordan \n 3. Adidas \n "
+  );
 
   let productos = [];
 
@@ -52,7 +52,7 @@ do {
     alert("Haz elegido la marca Adidas. A continuación, se mostrarán todos los productos:");
     productos = ArrayAdidas;
   } else {
-    alert("Marca no válida. Por favor, elige entre Nike, Jordan o Adidas.");
+    alert("Por favor, elige entre Nike, Jordan o Adidas.");
     continue;
   }
 
@@ -107,4 +107,3 @@ if (carrito.length > 0) {
 } else {
   alert("No has comprado ningún producto.");
 }
-

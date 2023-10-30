@@ -1,0 +1,93 @@
+[
+  {
+    "id":"1",
+    "nombre" : "Air Force",
+    "precio" : "350",
+    "img" : "./assets/image/air-force.jpeg"
+  },
+  {
+    "id":"2",
+    "nombre" : "Air Zoom",
+    "precio" : "250",
+    "img" : "./assets/image/air-zoom.jpeg"
+  },
+  {
+    "id":"3",
+    "nombre" : "Air Max",
+    "precio" : "375",
+    "img" : "./assets/image/air-max.jpeg"
+  },
+  {
+    "id":"4",
+    "nombre" : "Air Precision",
+    "precio" : "300",
+    "img" : "./assets/image/air-presicion.webp"
+  },
+  {
+    "id":"5",
+    "nombre" : "Nike Dunk",
+    "precio" : "320",
+    "img" : "./assets/image/nike-dunk.jpeg"
+  },
+  {
+    "id":"6",
+    "nombre" : "Jordan 1 xDior",
+    "precio" : "450",
+    "img" : "./assets/image/jordan-xdior.webp"
+  },
+  {
+    "id":"7",
+    "nombre" : "Jordan for Travis Scott",
+    "precio" : "350",
+    "img" : "./assets/image/jordan-travisscot.webp"
+  },
+  {
+    "id":"8",
+    "nombre" : "JORDAN 34 ZION WILLIAMSON",
+    "precio" : "475",
+    "img" : "./assets/image/jordan-zionwilliamson.webp"
+  },
+  {
+    "id":"9",
+    "nombre" : "Jordan 5 Retro SE",
+    "precio" : "500",
+    "img" : "./assets/image/jordan-5retro.jpeg"
+  },
+  {
+    "id":"10",
+    "nombre" : "Jordan 1 Retro Buy Off-White x Air",
+    "precio" : "520",
+    "img" : "./assets/image/jordan-offwhite.webp"
+  },
+  {
+    "id":"11",
+    "nombre" : "Forum Mid",
+    "precio" : "250",
+    "img" : "./assets/image/addidas-forum.webp"
+  },
+  {
+    "id":"12",
+    "nombre" : "Hyperturf",
+    "precio" : "350",
+    "img" : "./assets/image/adidas-hyperturf.jpg"
+  },
+  {
+    "id":"13",
+    "nombre" : "Terrex",
+    "precio" : "275",
+    "img" : "./assets/image/adiddas-terrex.jpg"
+  },
+  {
+    "id":"14",
+    "nombre" : "Forum Low Bad Bunny Back to School",
+    "precio" : "280",
+    "img" : "./assets/image/adiddas-badbunny.webp"
+  },
+  {
+    "id":"15",
+    "nombre" : "Adidas HOOPS 3.0 MID",
+    "precio" : "260",
+    "img" : "./assets/image/adiddas-hoops3.jpg"
+  }
+]
+

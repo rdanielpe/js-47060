@@ -672,12 +672,36 @@ input:focus {
 }
 
 /* CATALOGO.HTML */
+
+.main-catalogo {
+  background-color: #161616;
+}
+
+.portada-productos {
+  background-image: url(./assets/image/productos.png);
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+.portada-productos h1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 70px 20px 90px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
 .gallery {
+  justify-content: start;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-  gap: 20px;
-  max-width: 1400px;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  gap: 50px;
+  max-width: 1000px;
+  margin-left: 150px;
 }
 
 /* CARRITO MENU */
@@ -793,5 +817,42 @@ input:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* PRODUCTOS CATALOGO */
+.card-producto {
+  width: 233px;
+  height: 370px;
+  border: 1px solid white;
+}
+.img-producto {
+  width: 231px;
+  height: 237px;
+}
+.nombre-producto {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  padding: 5px;
+}
+.precio-producto {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+.talla {
+  width: 150px;
+  height: 25px;
+  margin-left: 10px;
+  font-size: 14px;
+  padding-left: 5px;
 }
 

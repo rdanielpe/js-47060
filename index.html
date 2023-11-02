@@ -9,63 +9,65 @@
   </head>
 
   <body>
-    <header>
-      <div class="container-nav">
-        <div class="left">
-          <a href="index.html">
-            <img
-              class="logo"
-              src="assets/image/WhatsApp Image 2023-09-24 at 15.13.26.webp"
-              alt=""
-            />
-          </a>
+      <header>
+        <div class="container-nav">
 
-          <button class="menu">
-            <div class="line-ab">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
+          <!-- <div class="left"> -->
+            <a href="index.html">
+              <img
+                class="logo"
+                src="assets/image/WhatsApp Image 2023-09-24 at 15.13.26.webp"
+                alt=""
+              />
+            </a>
+            <button class="menu">
+              <div class="line-ab">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+              </div>
+              <div class="menu__text">
+                <span>Menú</span>
+              </div>
+            </button>
+            <input class="barra-nav" type="text" placeholder="Buscar...">
+            <!-- <div class="barra_busqueda">
+              <div>
+                <span class="material-icons-outlined"> </span>
+              </div>
+              <input type="text" placeholder="Buscar ..." />
+              <div class="material-icons icon">
+                <span class="material-icons-outlined">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div> -->
+          <!-- </div> -->
+
+
+            <div class="iniciar-sesion">
+              <img src="assets/image/user.png" alt="">
             </div>
-            <div class="menu__text">
-              <span>Menú</span>
+            <div class="nav-carrito">
+              <img src="assets/image/bolsa.png" alt="" />
+              <div>0</div>
             </div>
-          </button>
-          <!-- <div class="barra_busqueda">
-            <div>
-              <span class="material-icons-outlined"> </span>
-            </div>
-            <input type="text" placeholder="Buscar ..." />
-            <div class="material-icons icon">
-              <span class="material-icons-outlined">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6 text-white"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                  />
-                </svg>
-              </span>
-            </div>
-          </div> -->
+
         </div>
-        <div class="nav-link right">
-          <div>
-            <a class="iniciar-sesion" href="">Iniciar sesión</a>
-          </div>
-          <div class="nav-carrito">
-            <img src="assets/image/CARRITO DE COMPRAS.webp" alt="" />
-            <div>0</div>
-          </div>
-        </div>
-      </div>
-    </header>
+      </header>
 
     <main>
       <div class="portada">
@@ -92,9 +94,9 @@
                     <option value="">TALLA1</option>
                     <option value="">TALLA2</option>
                   </select>
-                  <button class="carrito">
+                  <a class="carrito">
                     <img src="assets/image/CARRITO DE COMPRAS.webp" alt="" />
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -111,9 +113,9 @@
                     <option value="">TALLA1</option>
                     <option value="">TALLA2</option>
                   </select>
-                  <button class="carrito">
+                  <a class="carrito">
                     <img src="assets/image/CARRITO DE COMPRAS.webp" alt="" />
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -130,9 +132,9 @@
                     <option value="">TALLA1</option>
                     <option value="">TALLA2</option>
                   </select>
-                  <button class="carrito">
+                  <a class="carrito">
                     <img src="assets/image/CARRITO DE COMPRAS.webp" alt="" />
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -149,9 +151,9 @@
                     <option value="">TALLA1</option>
                     <option value="">TALLA2</option>
                   </select>
-                  <button class="carrito">
+                  <a class="carrito">
                     <img src="assets/image/CARRITO DE COMPRAS.webp" alt="" />
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -174,8 +176,8 @@
         </div>
       </div>
 
-      <!-- Catalogo -->
-      <div class="catalogo">
+       <!-- Catalogo -->
+       <div class="catalogo">
         <div class="para-ellos">
           <div class="bg-el">
             <img src="assets/image/para-el.png" alt="" />
@@ -185,8 +187,14 @@
             <img src="assets/image/para-ella.png" alt="" />
             <a class="ella" href="">PARA ELLA</a>
           </div>
+          <div class="bg-niños">
+            <img src="assets/image/kid.png" alt="" />
+            <a class="ella" href="">PARA ELLOS</a>
+          </div>
         </div>
-        <button class="bt-catalogo">VER CATALOGO</button>
+        <a href="./catalogo.html" class="bt-catalogo">
+          <span>VER CATALOGO</span>
+        </a>
       </div>
       <div class="nuestras-marcas">
         <h3>NUESTRAS MARCAS</h3>
@@ -205,6 +213,7 @@
           </div>
         </div>
       </div>
+
 
       <!-- REGISTRO/CONTACTO -->
       <div class="container-contacto">

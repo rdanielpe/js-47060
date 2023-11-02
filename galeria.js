@@ -31,11 +31,16 @@ btnCart.addEventListener("click", () => {
 const mostrarProductos = (productos) => {
   productos.forEach((producto) => {
     gallery.innerHTML += `
-      <div class="card" style="width: 18rem;">
-        <img src="${producto.img}" class="" alt="${producto.nombre}" >
+      <div class="card-producto">
+        <img src="${producto.img}" class="img-producto" alt="${producto.nombre}" >
         <div class="card-body">
-          <h5 class="card-title">${producto.nombre} </h5>
-          <p class="card-text">${producto.precio}</p>
+          <h5 class="nombre-producto">${producto.nombre} </h5>
+          <p class="precio-producto">${producto.precio}</p>
+          <select class="talla" name="talla" id="talla">
+            <option value="">TALLA</option>
+            <option value="">TALLA1</option>
+            <option value="">TALLA2</option>
+          </select>
           <button class="btn btn-primary btn-agregar" data-id="${producto.id}" alt="agregar">+</button>
         </div>
       </div>
@@ -56,8 +61,8 @@ const mostrarProductos = (productos) => {
 };
 const addToCart = (cardPadre) => {
   let producto = {
-    nombre: cardPadre.querySelector(".card-title").textContent,
-    precio: Number(cardPadre.querySelector(".card-text").textContent),
+    nombre: cardPadre.querySelector(".nombre-producto").textContent,
+    precio: Number(cardPadre.querySelector(".precio-producto").textContent),
     cantidad: 1,
     image: cardPadre.parentElement.querySelector("img").src,
     id: Number(cardPadre.querySelector("button").getAttribute("data-id")),
@@ -167,6 +172,3 @@ const escucharBotonesSidebar = () => {
 getProducts();
 showCart();
 escucharBotonesSidebar();
-
-
-

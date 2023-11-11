@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ALLROD ORIGINALS</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css" />
-    <link rel="stylesheet" href="./iziToast.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/iziToast.min.css" />
   </head>
 
-<body>
-  <header>
-    <div class="container-nav">
-
-      <!-- <div class="left"> -->
+  <body>
+    <header>
+      <div class="container-nav">
+        <!-- <div class="left"> -->
         <a href="index.html">
           <img
             class="logo"
@@ -31,7 +35,7 @@
             <span>Menú</span>
           </div>
         </button>
-        <input class="barra-nav" type="text" placeholder="Buscar...">
+        <input class="barra-nav" type="text" placeholder="Buscar..." />
         <!-- <div class="barra_busqueda">
           <div>
             <span class="material-icons-outlined"> </span>
@@ -56,53 +60,93 @@
             </span>
           </div>
         </div> -->
-      <!-- </div> -->
-
+        <!-- </div> -->
 
         <div class="iniciar-sesion">
-          <img src="assets/image/user.png" alt="">
+          <img src="assets/image/user.png" alt="" />
         </div>
         <div class="nav-carrito">
           <img src="assets/image/bolsa.png" alt="" />
           <div>0</div>
         </div>
-
-    </div>
-  </header>
-
-  <main class="main-catalogo">
-
-    <!-- CARRITO -->
-    <aside class="product-detail">
-      <div class="title-container">
-        <p class="title">Mi orden</p>
       </div>
-      <div class="my-order-content"></div>
-      <!-- Total Cart-->
-      <div class="order"></div>
+    </header>
 
-      <div >
-        <button class="primary-button add-to-cart-button" id="shopButton">Pagar</button>
+    <main class="main-catalogo">
+      <!-- CARRITO -->
+      <aside class="product-detail">
+        <div class="title-container">
+          <p class="title">Mi orden</p>
+        </div>
+        <div class="my-order-content"></div>
+        <!-- Total Cart-->
+        <div class="order"></div>
+
+        <div>
+          <button class="primary-button add-to-cart-button" id="shopButton">
+            Pagar
+          </button>
+        </div>
+      </aside>
+      <section>
+        <div class="portada-productos">
+          <h1>NUESTROS PRODUCTOS</h1>
+        </div>
+      </section>
+
+      <!-- Fin de CARRITO -->
+
+      <!-- Lista de productos -->
+      <section class="sct-productos">
+        <div class="c-productos">
+          <div class="c-categorias">
+            <h2 class="c-titulo">CATEGORÍA</h2>
+            <input type="checkbox" name="hombres" value="1" />HOMBRES
+            <br />
+            <input type="checkbox" name="mujeres" value="2" checked />MUJERES
+            <br />
+            <input type="checkbox" name="niños" value="3" />NIÑOS
+          </div>
+          <div class="c-marcas">
+            <h2 class="c-titulo">MARCA</h2>
+            <input type="checkbox" name="marca" value="1" />NIKE
+            <br />
+            <input type="checkbox" name="marca" value="2" checked />JORDAN
+            <br />
+            <input type="checkbox" name="marca" value="3" />ADIDDAS
+          </div>
+          <div class="c-medidas">
+            <h2 class="c-titulo">MEDIDA</h2>
+            <input type="checkbox" name="talla1" value="1" />TALA1
+            <br />
+            <input type="checkbox" name="talla2" value="2" checked />TALLA2
+            <br />
+            <input type="checkbox" name="talla3" value="3" />TALLA3
+          </div>
+        </div>
+        <div class="gallery"></div>
+      </section>
+      <!-- Fin de lista de productos -->
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container-footer">
+        <img
+          class="logo"
+          src="assets/image/WhatsApp Image 2023-09-24 at 15.13.26.webp"
+          alt=""
+        />
+        <p class="p-footer">HOME</p>
+        <p class="p-footer">CATÁLOGO</p>
       </div>
-    </aside>
-    <section>
-      <div class="portada-productos">
-        <h1>NUESTROS PRODUCTOS</h1>
-      </div>
-    </section>
-
-    <!-- Fin de CARRITO -->
-
-    <!-- Lista de productos -->
-    <section>
-      <div class="gallery">
-
-      </div>
-    </section>
-    <!-- Fin de lista de productos -->
-  </main>
-  <script defer src="./galeria.js"></script>
-  <script src="./iziToast.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+      <p class="footer-c">© 2023 ALLROD. All Rights Reserved.</p>
+    </footer>
+    <script defer src="./assets/js/galeria.js"></script>
+    <script src="./assets/js/iziToast.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

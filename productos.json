@@ -1,91 +1,109 @@
 [
   {
     "id":"1",
-    "nombre" : "Air Force",
+    "nombre" : "NIKE AIR FORCE",
     "precio" : "350",
-    "img" : "./assets/image/air-force.jpeg"
+    "img" : "./assets/image/exclusivo1.webp"
   },
   {
     "id":"2",
-    "nombre" : "Air Zoom",
+    "nombre" : "NIKE KYRE IRVING 4 'BHM",
+    "precio" : "750",
+    "img" : "./assets/image/exclusivo2.webp"
+  },
+  {
+    "id":"3",
+    "nombre" : "NIKE BLAZER MID 77 VINTAGE TIE DYE",
+    "precio" : "650",
+    "img" : "./assets/image/exclusivo3.webp"
+  },
+  {
+    "id":"4",
+    "nombre" : "NIKE AIR FORCE 1 LOW OFF-WHITE UNIVERSITY GOLDY",
+    "precio" : "850",
+    "img" : "./assets/image/exclusivo4.webp"
+  },
+  {
+    "id":"5",
+    "nombre" : "NIKE AIR ZOOM",
     "precio" : "250",
     "img" : "./assets/image/air-zoom.jpeg"
   },
   {
-    "id":"3",
-    "nombre" : "Air Max",
+    "id":"6",
+    "nombre" : "NIKE AIR MAX",
     "precio" : "375",
     "img" : "./assets/image/air-max.jpeg"
   },
   {
-    "id":"4",
-    "nombre" : "Air Precision",
+    "id":"7",
+    "nombre" : "NIKE AIR PRECISION",
     "precio" : "300",
     "img" : "./assets/image/air-presicion.webp"
   },
   {
-    "id":"5",
-    "nombre" : "Nike Dunk",
+    "id":"8",
+    "nombre" : "NIKE DUNK",
     "precio" : "320",
     "img" : "./assets/image/nike-dunk.jpeg"
   },
   {
-    "id":"6",
-    "nombre" : "Jordan 1 xDior",
+    "id":"9",
+    "nombre" : "JORDAN 1 xDIOR",
     "precio" : "450",
     "img" : "./assets/image/jordan-xdior.webp"
   },
   {
-    "id":"7",
-    "nombre" : "Jordan for Travis Scott",
+    "id":"10",
+    "nombre" : "JORDAN FOR TRAVIS SCOTT",
     "precio" : "350",
     "img" : "./assets/image/jordan-travisscot.webp"
   },
   {
-    "id":"8",
+    "id":"11",
     "nombre" : "JORDAN 34 ZION WILLIAMSON",
     "precio" : "475",
     "img" : "./assets/image/jordan-zionwilliamson.webp"
   },
   {
-    "id":"9",
-    "nombre" : "Jordan 5 Retro SE",
+    "id":"12",
+    "nombre" : "JORDAN 5 RETRO SE",
     "precio" : "500",
     "img" : "./assets/image/jordan-5retro.jpeg"
   },
   {
-    "id":"10",
-    "nombre" : "Jordan 1 Retro Buy Off-White x Air",
+    "id":"13",
+    "nombre" : "JORDAN 1 RETRO BUY OFF-WHITE X AIR",
     "precio" : "520",
     "img" : "./assets/image/jordan-offwhite.webp"
   },
   {
-    "id":"11",
-    "nombre" : "Forum Mid",
+    "id":"14",
+    "nombre" : "ADIDDAS FORUM MID",
     "precio" : "250",
     "img" : "./assets/image/addidas-forum.webp"
   },
   {
-    "id":"12",
-    "nombre" : "Hyperturf",
+    "id":"15",
+    "nombre" : "ADDIDAS HYPERTURF",
     "precio" : "350",
     "img" : "./assets/image/adidas-hyperturf.jpg"
   },
   {
-    "id":"13",
-    "nombre" : "Terrex",
+    "id":"16",
+    "nombre" : "ADIDDAS TERREX",
     "precio" : "275",
     "img" : "./assets/image/adiddas-terrex.jpg"
   },
   {
-    "id":"14",
-    "nombre" : "Forum Low Bad Bunny Back to School",
+    "id":"17",
+    "nombre" : "ADDIDAS FORUM LOW BAD BUNNY",
     "precio" : "280",
     "img" : "./assets/image/adiddas-badbunny.webp"
   },
   {
-    "id":"15",
-    "nombre" : "Adidas HOOPS 3.0 MID",
+    "id":"18",
+    "nombre" : "ADDIDAS HOOPS 3.0 MID",
     "precio" : "260",
     "img" : "./assets/image/adiddas-hoops3.jpg"
   }

@@ -5,7 +5,7 @@
     "precio": "350",
     "img": "./assets/image/exclusivo1.webp",
     "gender": "hombres",
-    "marca": "nike"
+    "brand": "nike"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "precio": "750",
     "img": "./assets/image/exclusivo2.webp",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "nike"
   },
   {
     "id": "18",
@@ -21,7 +21,7 @@
     "precio": "260",
     "img": "./assets/image/adiddas-hoops3.jpg",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "adidas"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "precio": "850",
     "img": "./assets/image/exclusivo4.webp",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "nike"
   },
   {
     "id": "5",
@@ -37,7 +37,7 @@
     "precio": "250",
     "img": "./assets/image/air-zoom.jpeg",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "nike"
   },
   {
     "id": "6",
@@ -45,7 +45,7 @@
     "precio": "375",
     "img": "./assets/image/air-max.jpeg",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "nike"
   },
   {
     "id": "7",
@@ -53,7 +53,7 @@
     "precio": "300",
     "img": "./assets/image/air-presicion.webp",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "nike"
   },
   {
     "id": "8",
@@ -61,7 +61,7 @@
     "precio": "320",
     "img": "./assets/image/nike-dunk.jpeg",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "nike"
   },
   {
     "id": "9",
@@ -69,7 +69,7 @@
     "precio": "450",
     "img": "./assets/image/jordan-xdior.webp",
     "gender": "mujeres",
-    "marca": "jordan"
+    "brand": "jordan"
   },
   {
     "id": "10",
@@ -77,7 +77,7 @@
     "precio": "350",
     "img": "./assets/image/jordan-travisscot.webp",
     "gender": "mujeres",
-    "marca": "jordan"
+    "brand": "jordan"
   },
   {
     "id": "11",
@@ -85,7 +85,7 @@
     "precio": "475",
     "img": "./assets/image/jordan-zionwilliamson.webp",
     "gender": "mujeres",
-    "marca": "jordan"
+    "brand": "jordan"
   },
   {
     "id": "12",
@@ -93,7 +93,7 @@
     "precio": "500",
     "img": "./assets/image/jordan-5retro.jpeg",
     "gender": "mujeres",
-    "marca": "jordan"
+    "brand": "jordan"
   },
   {
     "id": "13",
@@ -101,7 +101,7 @@
     "precio": "520",
     "img": "./assets/image/jordan-offwhite.webp",
     "gender": "mujeres",
-    "marca": "jordan"
+    "brand": "jordan"
   },
   {
     "id": "14",
@@ -109,7 +109,7 @@
     "precio": "250",
     "img": "./assets/image/addidas-forum.webp",
     "gender": "mujeres",
-    "marca": "adidas"
+    "brand": "adidas"
   },
   {
     "id": "15",
@@ -117,7 +117,7 @@
     "precio": "350",
     "img": "./assets/image/adidas-hyperturf.jpg",
     "gender": "mujeres",
-    "marca": "adidas"
+    "brand": "adidas"
   },
   {
     "id": "16",
@@ -125,7 +125,7 @@
     "precio": "275",
     "img": "./assets/image/adiddas-terrex.jpg",
     "gender": "hombres",
-    "marca": "adidas"
+    "brand": "adidas"
   },
   {
     "id": "17",
@@ -133,7 +133,7 @@
     "precio": "280",
     "img": "./assets/image/adiddas-badbunny.webp",
     "gender": ["hombres", "mujeres"],
-    "marca": "adidas"
+    "brand": "adidas"
   },
   {
     "id": "3",
@@ -141,6 +141,6 @@
     "precio": "650",
     "img": "./assets/image/exclusivo3.webp",
     "gender": "mujeres",
-    "marca": "nike"
+    "brand": "nike"
   }
 ]

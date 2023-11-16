@@ -1,111 +1,146 @@
 [
   {
-    "id":"1",
-    "nombre" : "NIKE AIR FORCE",
-    "precio" : "350",
-    "img" : "./assets/image/exclusivo1.webp"
+    "id": "1",
+    "nombre": "NIKE AIR FORCE",
+    "precio": "350",
+    "img": "./assets/image/exclusivo1.webp",
+    "gender": "hombres",
+    "marca": "nike"
   },
   {
-    "id":"2",
-    "nombre" : "NIKE KYRE IRVING 4 'BHM",
-    "precio" : "750",
-    "img" : "./assets/image/exclusivo2.webp"
+    "id": "2",
+    "nombre": "NIKE KYRE IRVING 4 BHM",
+    "precio": "750",
+    "img": "./assets/image/exclusivo2.webp",
+    "gender": "mujeres",
+    "marca": "nike"
   },
   {
-    "id":"3",
-    "nombre" : "NIKE BLAZER MID 77 VINTAGE TIE DYE",
-    "precio" : "650",
-    "img" : "./assets/image/exclusivo3.webp"
+    "id": "18",
+    "nombre": "ADDIDAS HOOPS 3.0 MID",
+    "precio": "260",
+    "img": "./assets/image/adiddas-hoops3.jpg",
+    "gender": "mujeres",
+    "marca": "nike"
   },
   {
-    "id":"4",
-    "nombre" : "NIKE AIR FORCE 1 LOW OFF-WHITE UNIVERSITY GOLDY",
-    "precio" : "850",
-    "img" : "./assets/image/exclusivo4.webp"
+    "id": "4",
+    "nombre": "NIKE AIR FORCE 1 LOW OFF-WHITE UNIVERSITY GOLDY",
+    "precio": "850",
+    "img": "./assets/image/exclusivo4.webp",
+    "gender": "mujeres",
+    "marca": "nike"
   },
   {
-    "id":"5",
-    "nombre" : "NIKE AIR ZOOM",
-    "precio" : "250",
-    "img" : "./assets/image/air-zoom.jpeg"
+    "id": "5",
+    "nombre": "NIKE AIR ZOOM",
+    "precio": "250",
+    "img": "./assets/image/air-zoom.jpeg",
+    "gender": "mujeres",
+    "marca": "nike"
   },
   {
-    "id":"6",
-    "nombre" : "NIKE AIR MAX",
-    "precio" : "375",
-    "img" : "./assets/image/air-max.jpeg"
+    "id": "6",
+    "nombre": "NIKE AIR MAX",
+    "precio": "375",
+    "img": "./assets/image/air-max.jpeg",
+    "gender": "mujeres",
+    "marca": "nike"
   },
   {
-    "id":"7",
-    "nombre" : "NIKE AIR PRECISION",
-    "precio" : "300",
-    "img" : "./assets/image/air-presicion.webp"
+    "id": "7",
+    "nombre": "NIKE AIR PRECISION",
+    "precio": "300",
+    "img": "./assets/image/air-presicion.webp",
+    "gender": "mujeres",
+    "marca": "nike"
   },
   {
-    "id":"8",
-    "nombre" : "NIKE DUNK",
-    "precio" : "320",
-    "img" : "./assets/image/nike-dunk.jpeg"
+    "id": "8",
+    "nombre": "NIKE DUNK",
+    "precio": "320",
+    "img": "./assets/image/nike-dunk.jpeg",
+    "gender": "mujeres",
+    "marca": "nike"
   },
   {
-    "id":"9",
-    "nombre" : "JORDAN 1 xDIOR",
-    "precio" : "450",
-    "img" : "./assets/image/jordan-xdior.webp"
+    "id": "9",
+    "nombre": "JORDAN 1 xDIOR",
+    "precio": "450",
+    "img": "./assets/image/jordan-xdior.webp",
+    "gender": "mujeres",
+    "marca": "jordan"
   },
   {
-    "id":"10",
-    "nombre" : "JORDAN FOR TRAVIS SCOTT",
-    "precio" : "350",
-    "img" : "./assets/image/jordan-travisscot.webp"
+    "id": "10",
+    "nombre": "JORDAN FOR TRAVIS SCOTT",
+    "precio": "350",
+    "img": "./assets/image/jordan-travisscot.webp",
+    "gender": "mujeres",
+    "marca": "jordan"
   },
   {
-    "id":"11",
-    "nombre" : "JORDAN 34 ZION WILLIAMSON",
-    "precio" : "475",
-    "img" : "./assets/image/jordan-zionwilliamson.webp"
+    "id": "11",
+    "nombre": "JORDAN 34 ZION WILLIAMSON",
+    "precio": "475",
+    "img": "./assets/image/jordan-zionwilliamson.webp",
+    "gender": "mujeres",
+    "marca": "jordan"
   },
   {
-    "id":"12",
-    "nombre" : "JORDAN 5 RETRO SE",
-    "precio" : "500",
-    "img" : "./assets/image/jordan-5retro.jpeg"
+    "id": "12",
+    "nombre": "JORDAN 5 RETRO SE",
+    "precio": "500",
+    "img": "./assets/image/jordan-5retro.jpeg",
+    "gender": "mujeres",
+    "marca": "jordan"
   },
   {
-    "id":"13",
-    "nombre" : "JORDAN 1 RETRO BUY OFF-WHITE X AIR",
-    "precio" : "520",
-    "img" : "./assets/image/jordan-offwhite.webp"
+    "id": "13",
+    "nombre": "JORDAN 1 RETRO BUY OFF-WHITE X AIR",
+    "precio": "520",
+    "img": "./assets/image/jordan-offwhite.webp",
+    "gender": "mujeres",
+    "marca": "jordan"
   },
   {
-    "id":"14",
-    "nombre" : "ADIDDAS FORUM MID",
-    "precio" : "250",
-    "img" : "./assets/image/addidas-forum.webp"
+    "id": "14",
+    "nombre": "ADIDAS FORUM MID",
+    "precio": "250",
+    "img": "./assets/image/addidas-forum.webp",
+    "gender": "mujeres",
+    "marca": "adidas"
   },
   {
-    "id":"15",
-    "nombre" : "ADDIDAS HYPERTURF",
-    "precio" : "350",
-    "img" : "./assets/image/adidas-hyperturf.jpg"
+    "id": "15",
+    "nombre": "ADIDAS HYPERTURF",
+    "precio": "350",
+    "img": "./assets/image/adidas-hyperturf.jpg",
+    "gender": "mujeres",
+    "marca": "adidas"
   },
   {
-    "id":"16",
-    "nombre" : "ADIDDAS TERREX",
-    "precio" : "275",
-    "img" : "./assets/image/adiddas-terrex.jpg"
+    "id": "16",
+    "nombre": "ADIDAS TERREX",
+    "precio": "275",
+    "img": "./assets/image/adiddas-terrex.jpg",
+    "gender": "hombres",
+    "marca": "adidas"
   },
   {
-    "id":"17",
-    "nombre" : "ADDIDAS FORUM LOW BAD BUNNY",
-    "precio" : "280",
-    "img" : "./assets/image/adiddas-badbunny.webp"
+    "id": "17",
+    "nombre": "ADIDAS FORUM LOW BAD BUNNY",
+    "precio": "280",
+    "img": "./assets/image/adiddas-badbunny.webp",
+    "gender": ["hombres", "mujeres"],
+    "marca": "adidas"
   },
   {
-    "id":"18",
-    "nombre" : "ADDIDAS HOOPS 3.0 MID",
-    "precio" : "260",
-    "img" : "./assets/image/adiddas-hoops3.jpg"
+    "id": "3",
+    "nombre": "NIKE BLAZER MID 77 VINTAGE TIE DYE",
+    "precio": "650",
+    "img": "./assets/image/exclusivo3.webp",
+    "gender": "mujeres",
+    "marca": "nike"
   }
 ]
-

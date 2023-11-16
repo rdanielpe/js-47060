@@ -248,6 +248,29 @@ const filtrarPorNombre = async (productos) => {
     gallery.innerHTML = `<p class="text-white">¡Lo sentimos! No hemos encontrado ningún resultado para tu búsqueda...</p>`;
   }
 };
+function filterProductsByBrand(productos, brand) {
+  const filteredProducts = productos.filter((producto) =>
+    producto.brand === brand
+  );
+   // Llamamos a la función mostrarProductos
+   mostrarProductos(filteredProducts);
+}
+const inputRadiosBrand = document.querySelectorAll("input[name='brand']");
+
+inputRadiosBrand.forEach((inputRadio) => {
+  inputRadio.addEventListener("click", () => {
+    // Obtenemos el valor del input radio
+    const brand = inputRadio.value;
+
+    // Filtramos los productos
+    getProducts()
+    .then((data) => {
+      filterProductsByBrand(data, brand);
+    })
+    .catch((err) => console.log(err));
+  });
+});
+
 
 getProducts();
 showCart();
